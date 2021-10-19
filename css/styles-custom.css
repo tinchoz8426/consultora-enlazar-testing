@@ -244,12 +244,19 @@
 .card-person__testimonio {
   color: var(--negro);
 }
-.card-person__title {
+.card-person__title-testimonio,
+.card-person__testimonio p{
+  font-size: 1rem;
+}
+.card-person__title-testimonio{
+  font-weight: bold;
+}
+/* .card-person__title {
   font-size: 1.5rem !important;
   font-weight: bold;
   margin-top: 0.5rem !important;
   margin-bottom: 0rem;
-}
+} */
 /* -----Fin TESTIMONIOS----- */
 
 /* -----Inicio Seccion FORMULARIO----- */
@@ -265,6 +272,7 @@
 }
 .form-consulta h2 {
   color: var(--azul-oscuro);
+  margin-top: 9rem;
 }
 .button-form-consulta {
   background-color: var(--amarillo);
@@ -878,7 +886,6 @@
 .header-text__nosotros {
   font-size: 0.95rem;
   font-weight: normal;
-  line-height: 30px;
   max-width: 60%;
   padding: 0rem 4rem 5rem 5rem;
   margin-bottom: 0;
@@ -901,7 +908,7 @@
   transition: ease-in-out 0.5s;
 }
 .card-person__title {
-  font-size: 1rem;
+  font-size: 1.3rem;
   font-weight: bold;
   margin-top: 1rem;
   margin-bottom: 0rem;
@@ -928,7 +935,7 @@
   padding-bottom: 1em;
 }
 .card-person p {
-  font-size: 0.9rem;
+  font-size: 1rem;
 }
 
 .swiper {
@@ -970,7 +977,7 @@
 .nuestros-valores__title {
   font-weight: bold;
   color: var(--azul-oscuro);
-  padding: 5rem 4rem 2rem 5rem;
+  padding: 5rem 4rem 2rem 3rem;
 }
 .nuestros-valores__text-mobile {
   display: none;
