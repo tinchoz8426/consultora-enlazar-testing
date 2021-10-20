@@ -74,15 +74,15 @@
   position: relative;
 }
 .tituloEnlazar {
-  font-size: 35px;
+  font-size: 30px;
   font-weight: bold;
   color: #ffffff;
-  padding-top: 50px;
+  padding-top: 100px;
   line-height: 50px;
   margin-left: 50px;
 }
 .textoSomos {
-  font-size: 18px;
+  font-size: 16px;
   color: #ffffff;
   display: block;
   width: 50%;
@@ -110,7 +110,7 @@
   position: relative;
 }
 .tituloObjetivo {
-  font-size: 35px;
+  font-size: 30px;
   font-weight: bold;
   color: #ffffff;
   padding-top: 60px;
@@ -118,7 +118,7 @@
   margin-left: 700px;
 }
 .textoObjetivo {
-  font-size: 18px;
+  font-size: 16px;
   color: #ffffff;
   display: block;
   width: 40%;
@@ -148,7 +148,7 @@
   font-weight: bold;
 }
 .textoConocenos {
-  font-size: 15px;
+  font-size: 16px;
 }
 .btn-cargar-cv {
   padding: .2rem 2rem !important;
@@ -200,16 +200,26 @@
   
 }
 .tituloAprende {
-  font-size: 40px;
+  font-size: 30px;
   font-weight: bold;
   color: #ffffff;
   text-align: center;
 }
 .textoAprende {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: bold;
   color: #ffffff;
   text-align: center;
+}
+.buttonAprendemos {
+  background-color: #ebbe48;
+  color: var(--negro);
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 100px;
+  padding: 0.5rem 2rem;
+  transition: ease-in-out 0.2s;
+  
 }
 .buttonAprende {
   background-color: #ebbe48;
@@ -220,6 +230,10 @@
   padding: 0.5rem 2rem;
   transition: ease-in-out 0.2s;
   margin-left: 40px;
+}
+.buttonAprendemos:hover {
+  transform: scale(1.02);
+  color: var(--negro);
 }
 .buttonAprende:hover {
   transform: scale(1.02);
@@ -346,7 +360,7 @@
   display: block;
 }
 .btn-cargar-cv {
-  padding: 0 2rem !important;
+  padding: 0.3 2rem !important;
   transition: ease-in-out 0.2s;
 }
 /* -----Fin Seccion REVISAMOS TU CV GRATIS ----- */
@@ -470,6 +484,46 @@
   background-color: var(--azul-claro);
   padding-top: 10rem;
   padding-bottom: 7rem;
+}
+.card-webinars{
+  overflow: visible !important;
+}
+.card-webinars i {
+  position: absolute;
+  top: 1rem;
+  left: -16px;
+  width: 9.6rem;
+  border-radius: 15px;
+  height: 3rem;
+  background-color: #dc3545eb;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 2.9;
+  font-style: normal;
+  color: white;
+  font-weight: bold;
+  border-bottom-left-radius: 0;
+}
+.card-webinars i::before {
+  content: "";
+  position: absolute;
+  top: 3rem;
+  left: 0px;
+  width: 1rem;
+  height: 1.5rem;
+  background-color: black;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  z-index: 2;
+}
+.card-webinars i::after {
+  content: "";
+  position: absolute;
+  top: 3rem;
+  left: 0px;
+  width: 1rem;
+  height: 0.8rem;
+  background: #dc3545;
 }
 .card {
   background-color: var(--azul-medio);
@@ -1698,7 +1752,7 @@
     font-size: 40px;
     font-weight: bold;
     color: #ffffff;
-    padding-top: 100px;
+    padding-top: 60px;
     line-height: 50px;
     margin-left: 600px;
   }
@@ -1711,7 +1765,7 @@
     position: absolute;
   }
   .fotoObjetivo {
-    width: 49%;
+    width: 41%;
     display: block;
     position: absolute;
     filter: drop-shadow(4px 4px 10px rgba(0, 0, 0, 0.25));
@@ -2051,12 +2105,12 @@ padding-right: 6rem;
     align-items: center;
     justify-content: center;
     background: url("../assets/images/servicios-cover-tablet.webp");
-    background-position: top center;
+    background-position:top center;
     background-size: cover;
     background-repeat: no-repeat;
     height: 65vh;
     position: relative;
-    top: 5.5rem;
+    
   }
   .header-title {
     color: var(--blanco);
@@ -2094,7 +2148,7 @@ padding-right: 6rem;
     background-position: top center; /*3rem*/
     background-size: cover;
     background-repeat: no-repeat;
-    height: 70vh;
+    height: 40vh;
     flex-direction: column;
   }
   .header-title1 {
@@ -2120,11 +2174,10 @@ padding-right: 6rem;
     background-position: top center;
     background-size: 600px;
     background-repeat: no-repeat;
-    height: 60vh;
+    height: 40vh;
     justify-items: center;
     background-color: white;
-    margin-top: 100px;
-    margin-bottom: 70px;
+    margin-top: -100px;
   }
   .header-title2 {
     color: #34668a;
@@ -2174,9 +2227,9 @@ padding-right: 6rem;
     margin-left: -280px
   }
   .form-consulta {
-    width: 80% !important;
-    padding-right: 3rem;
-    }
+    width: 85% !important;
+    padding-right: 0;
+    margin-right: auto;}
     .header-title {
       color: var(--blanco);
       padding: 0 1rem;
@@ -2282,12 +2335,12 @@ padding-right: 6rem;
   background-position: top center;
   background-size: 450px;
   background-repeat: no-repeat;
-  height: 40vh !important;
+  height: 30vh !important;
   justify-items: center;
   background-color: white;
-  margin-top: 100px;
-  margin-bottom: 70px;
-
+  margin-top: -150px;
+  margin-bottom: 60px;
+ 
 }
 .header-title2 {
   color: #34668a;
@@ -2297,13 +2350,29 @@ padding-right: 6rem;
   align-self: flex-start;
   padding-top: 85px;
 }
+.form-consulta {
+  width: 85% !important;
+  padding-right: 0;
+  margin-right: auto;
+}
+.buttonAprendemos {
+  background-color: #ebbe48;
+  color: var(--negro);
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 100px;
+  padding: 0.5rem 1rem;
+  transition: ease-in-out 0.2s;
+  width: 250px;
+  
+}
 }
 @media screen and (max-width: 480px) {
   
   
 
   .tituloObjetivo {
-    font-size: 25px;
+    font-size: 24px;
     font-weight: bold;
     color: #ffffff;
     margin-top: -160px;
@@ -2344,12 +2413,12 @@ padding-right: 6rem;
   align-items: center;
   justify-content: center;
   background: url("../assets/images/servicios-cover-tablet-mobile.webp");
-  background-position: top center;
+  background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 65vh;
+  height: 30vh;
   position: relative;
-  top: 5.5rem;
+  
 }
 .header-title {
   color: var(--blanco);
@@ -2360,18 +2429,21 @@ padding-right: 6rem;
 }
 .serviciosTitulo {
   text-align: left;
-  font-size: 25px;
+  font-size: 20px;
   font-weight: bold;
+  padding-left: 3rem;
+  padding-bottom: 4rem;
+  padding-top: .1rem;
 }
 .header-image1 {
   display: flex;
   align-items: center;
   justify-content: center;
   background: url("../assets/images/revision-cv-gratis-mobile.webp");
-  background-position: top center;
+  background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 70vh;
+  height: 30vh;
   flex-direction: column;
 }
 .header-title1 {
@@ -2396,11 +2468,12 @@ padding-right: 6rem;
   background-position: top center;
   background-size: 450px;
   background-repeat: no-repeat;
-  height: 40vh !important;
+  height: 20vh !important;
   justify-items: center;
   background-color: white;
   margin-top: 100px;
-  margin-bottom: 70px;
+  margin-bottom: 60px;
+
 
 }
 .header-title2 {
@@ -2410,6 +2483,14 @@ padding-right: 6rem;
   display: block;
   align-self: flex-start;
   padding-top: 65px;}
+  .form-consulta {
+    width: 85% !important;
+    padding-right: 0;
+    margin-right: auto;
+
+}
+
+
 
 }
 @media screen and (max-width: 435px) {
@@ -2455,18 +2536,17 @@ padding-right: 6rem;
   font-weight: bold;
   text-decoration: none;
   border-radius: 100px;
-  padding: 0.5rem 2rem;
+  padding: 0.5rem 3rem;
   transition: ease-in-out 0.2s;
   margin-left: 30px;
-  font-size: 10px;
   margin-bottom: 20px;
 }
 .serviciosTitulo {
   text-align: left;
-  font-size: 25px;
+  font-size: 20px;
   font-weight: bold;
-  padding-left: 2.5rem;
-  padding-bottom: 8rem;
+  padding-left: 2rem;
+  padding-bottom: 4rem;
   padding-top: .1rem;
 }
 .header-image2 {
@@ -2482,12 +2562,16 @@ padding-right: 6rem;
   background-position: top center;
   background-size: 400px;
   background-repeat: no-repeat;
-  height: 40vh !important;
+  height: 20vh !important;
   justify-items: center;
   background-color: white;
-  margin-top: 100px;
-  margin-bottom: 70px;
+  
 
+}
+.form-consulta {
+  width: 85% !important;
+  padding-right: 0;
+  margin-right: auto;
 }
 }
 
@@ -2510,7 +2594,7 @@ padding-right: 6rem;
   
 } 
 .btn-cargar-cv {
-  padding: 0 2rem !important;
+  padding: 0.3 2rem !important;
   transition: ease-in-out 0.2s;
 }
 
@@ -2524,7 +2608,6 @@ padding-right: 6rem;
   padding: 0.5rem 2rem;
   transition: ease-in-out 0.2s;
   margin-left: 30px;
-  font-size: 10px;
   margin-bottom: 20px;
 }
 .tituloObjetivo {
@@ -2582,11 +2665,6 @@ padding-right: 6rem;
     margin-right: auto;
 }
 
-  .form-consulta {
-    width: 85% !important;
-    padding-right: 0;
-    margin-right: auto;
-}
 }
 @media screen and (max-width: 411px) {
   
@@ -2614,14 +2692,33 @@ padding-right: 6rem;
   background-repeat: repeat;
   background-size: auto;
   background-position: top center;
-  background-size: 350px;
+  background-size: 300px;
   background-repeat: no-repeat;
-  height: 40vh !important;
+  height: 20vh !important;
   justify-items: center;
   background-color: white;
   margin-top: 100px;
-  margin-bottom: 70px;
+  
 
+}
+.header-title2 {
+  color: #34668a;
+  font-size: 15px;
+  text-align: center;
+  display: block;
+  align-self: flex-start;
+  padding-top: 30px;
+}
+.buttonAprendemos {
+  background-color: #ebbe48;
+  color: var(--negro);
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 100px;
+  padding: 0.5rem 2rem;
+  transition: ease-in-out 0.2s;
+  width: 200px;
+  
 }
 }
 @media screen and (max-width: 375px) {
@@ -2648,12 +2745,22 @@ padding-right: 6rem;
   font-weight: bold;
   text-decoration: none;
   border-radius: 100px;
+  padding: 0.5rem 3rem;
+  transition: ease-in-out 0.2s;
+  margin-left: 10px;
+  margin-bottom: 20px;
+  width: 320px;
+}
+.buttonAprendemos {
+  background-color: #ebbe48;
+  color: var(--negro);
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 100px;
   padding: 0.5rem 2rem;
   transition: ease-in-out 0.2s;
-  margin-left: 30px;
-  font-size: 10px;
-  margin-bottom: 20px;
-  width: 250px;
+  width: 200px;
+  
 }
 .header-title {
   color: var(--blanco);
@@ -2707,11 +2814,22 @@ padding-right: 6rem;
     font-weight: bold;
     text-decoration: none;
     border-radius: 100px;
+    padding: 0.5rem 3rem;
+    transition: ease-in-out 0.2s;
+    margin-left: 10px;
+   
+    margin-bottom: 20px;
+  }
+  .buttonAprendemos {
+    background-color: #ebbe48;
+    color: var(--negro);
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 100px;
     padding: 0.5rem 2rem;
     transition: ease-in-out 0.2s;
-    margin-left: 30px;
-    font-size: 10px;
-    margin-bottom: 20px;
+    width: 200px;
+    
   }
   
 .header-title1 {
@@ -2734,13 +2852,13 @@ padding-right: 6rem;
   background-repeat: repeat;
   background-size: auto;
   background-position: top center;
-  background-size: 300px;
+  background-size: 250px;
   background-repeat: no-repeat;
-  height: 40vh !important;
+  height: 20vh !important;
   justify-items: center;
   background-color: white;
-  margin-top: 100px;
-  margin-bottom: 10px;
+ 
+ 
 }
 .header-title2 {
   color: #34668a;
@@ -2784,7 +2902,7 @@ padding-right: 6rem;
   font-size: 20px;
   font-weight: bold;
   padding-left: 1rem;
-  padding-bottom: 8rem;
+  padding-bottom: 4rem;
   padding-top: .1rem;
 }
 .buttonAprende1 {
@@ -2795,9 +2913,20 @@ padding-right: 6rem;
   border-radius: 100px;
   padding: 0.5rem 2rem;
   transition: ease-in-out 0.2s;
-  font-size:10px ;
+  
   width: 250px;
  
+}
+.buttonAprendemos {
+  background-color: #ebbe48;
+  color: var(--negro);
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 100px;
+  padding: 0.5rem 2rem;
+  transition: ease-in-out 0.2s;
+  width: 200px;
+  
 }
 .btn-cargar-cv {
   padding: 0 2rem !important;
@@ -2848,9 +2977,20 @@ padding-right: 6rem;
   padding: 0.5rem 2rem;
   transition: ease-in-out 0.2s;
   margin-left: 10px;
-  font-size: 10px;
+  
   margin-bottom: 20px;
-  width: 250px;
+  width: 310px;
+}
+.buttonAprendemos {
+  background-color: #ebbe48;
+  color: var(--negro);
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 100px;
+  padding: 0.5rem 2rem;
+  transition: ease-in-out 0.2s;
+  width: 200px;
+ 
 }
 .buttonAprende1 {
   background-color: #ebbe48;
@@ -2860,7 +3000,7 @@ padding-right: 6rem;
   border-radius: 100px;
   padding: 0.5rem 2rem;
   transition: ease-in-out 0.2s;
-  font-size:10px ;
+ 
   width: 250px;
  
 }
@@ -2913,13 +3053,13 @@ padding-right: 6rem;
   background-repeat: repeat;
   background-size: auto;
   background-position: top center;
-  background-size: 250px;
+  background-size: 200px;
   background-repeat: no-repeat;
-  height: 40vh !important;
+  height: 20vh !important;
   justify-items: center;
   background-color: white;
-  margin-top: 100px;
-  margin-bottom: 0px;
+ 
+ 
 
 }
 .header-title2 {
@@ -2959,11 +3099,22 @@ padding-right: 6rem;
     font-weight: bold;
     text-decoration: none;
     border-radius: 100px;
-    padding: 0.5rem 2rem;
+    padding: 0.5rem 1rem;
     transition: ease-in-out 0.2s;
-    font-size: 9px;
+   
     
-    width: 230px;
+    width: 250px;
+}
+.buttonAprendemos {
+  background-color: #ebbe48;
+  color: var(--negro);
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 100px;
+  padding: 0.5rem 2rem;
+  transition: ease-in-out 0.2s;
+  width: 200px;
+  
 }
 .somosEnlazar {
   background-color: #043959;
@@ -2988,13 +3139,28 @@ padding-right: 6rem;
   background-repeat: repeat;
   background-size: auto;
   background-position: top center;
-  background-size: 250px;
+  background-size: 200px;
   background-repeat: no-repeat;
-  height: 40vh !important;
+  height: 15vh !important;
   justify-items: center;
   background-color: white;
-  margin-top: 100px;
-  margin-bottom: 0px;
+  
 
 }
+.tituloEnlazar {
+  font-size: 17px;
+  font-weight: bold;
+  color: #ffffff;
+  padding-top: 1px;
+  margin-left: 19px;
+  margin-top: 10px;
+}
+.textoSomos {
+  font-size: 13px;
+  color: #ffffff;
+  width: 100%;
+  text-align: left;
+  margin-left: -30px;
+  
+} 
 }
