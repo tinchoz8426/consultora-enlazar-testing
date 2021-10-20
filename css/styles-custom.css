@@ -2672,7 +2672,7 @@ padding-right: 6rem;
   padding: 0.5rem 1rem;
   transition: ease-in-out 0.2s;
   width: 200px;
-  font-size: 10px;
+  
 }
 }
 @media screen and (max-width: 375px) {
@@ -2715,7 +2715,7 @@ padding-right: 6rem;
   padding: 0.5rem 1rem;
   transition: ease-in-out 0.2s;
   width: 200px;
-  font-size: 10px;
+  
 }
 .header-title {
   color: var(--blanco);
@@ -2784,7 +2784,7 @@ padding-right: 6rem;
     padding: 0.5rem 1rem;
     transition: ease-in-out 0.2s;
     width: 200px;
-    font-size: 10px;
+    
   }
   
 .header-title1 {
@@ -2881,7 +2881,7 @@ padding-right: 6rem;
   padding: 0.5rem 1rem;
   transition: ease-in-out 0.2s;
   width: 200px;
-  font-size: 10px;
+  
 }
 .btn-cargar-cv {
   padding: 0 2rem !important;
@@ -2945,7 +2945,7 @@ padding-right: 6rem;
   padding: 0.5rem 1rem;
   transition: ease-in-out 0.2s;
   width: 200px;
-  font-size: 10px;
+ 
 }
 .buttonAprende1 {
   background-color: #ebbe48;
@@ -3069,7 +3069,7 @@ padding-right: 6rem;
   padding: 0.5rem 1rem;
   transition: ease-in-out 0.2s;
   width: 200px;
-  font-size: 10px;
+  
 }
 .somosEnlazar {
   background-color: #043959;
