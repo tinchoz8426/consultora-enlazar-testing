@@ -1075,9 +1075,6 @@
   background-color: var(--blanco);
   border-radius: 10px;
 }
-.modal-content__trabaja-nosotros {
-  padding-top: 4em;
-}
 .modal-title__trabaja-nosotros {
   color: var(--azul-oscuro);
   font-weight: bold;
