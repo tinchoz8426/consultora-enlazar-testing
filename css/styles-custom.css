@@ -2299,6 +2299,7 @@ padding-right: 6rem;
   justify-items: center;
   background-color: white;
   margin-top: -150px;
+  margin-bottom: 60px;
  
 }
 .header-title2 {
@@ -2525,7 +2526,6 @@ padding-right: 6rem;
   height: 20vh !important;
   justify-items: center;
   background-color: white;
-  margin-top: 100px;
   
 
 }
@@ -2812,7 +2812,7 @@ padding-right: 6rem;
   height: 20vh !important;
   justify-items: center;
   background-color: white;
-  margin-top: 100px;
+ 
  
 }
 .header-title2 {
@@ -3013,7 +3013,7 @@ padding-right: 6rem;
   height: 20vh !important;
   justify-items: center;
   background-color: white;
-  margin-top: 150px;
+ 
  
 
 }
@@ -3099,8 +3099,7 @@ padding-right: 6rem;
   height: 15vh !important;
   justify-items: center;
   background-color: white;
-  margin-top: 100px;
- 
+  
 
 }
 }
