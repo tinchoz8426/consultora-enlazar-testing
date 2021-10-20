@@ -1387,7 +1387,7 @@
   .modal-header {
     border-bottom: 2px solid var(--amarillo);
     justify-content: center;
-    padding-left: 0;
+    padding-left: 1rem;
   }
   .modal-body {
     flex-direction: column;
