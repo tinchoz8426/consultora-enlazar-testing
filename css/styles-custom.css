@@ -1006,11 +1006,11 @@
   font-weight: bold;
   color: var(--azul-oscuro);
 }
-.btn-cargar-cv {
+.btn-cargar-cv-nosotros {
   padding: 0.3rem 3rem !important;
   transition: ease-in-out 0.2s;
 }
-.btn-cargar-cv:hover {
+.btn-cargar-cv-nosotros:hover {
   transform: scale(1.05);
 }
 /* -----Fin Trabaja con nosotros----- */
@@ -1567,7 +1567,7 @@
   .trabaja-nosotros__image{
     padding-bottom: 3rem;
   }
-  .btn-cargar-cv{
+  .btn-cargar-cv-nosotros{
     align-self: center;
     padding: 0.3rem 3rem !important;
   }
