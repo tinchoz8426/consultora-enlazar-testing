@@ -3102,4 +3102,20 @@ padding-right: 6rem;
   
 
 }
+.tituloEnlazar {
+  font-size: 17px;
+  font-weight: bold;
+  color: #ffffff;
+  padding-top: 1px;
+  margin-left: 19px;
+  margin-top: 10px;
+}
+.textoSomos {
+  font-size: 13px;
+  color: #ffffff;
+  width: 100%;
+  text-align: left;
+  margin-left: -30px;
+  
+} 
 }
