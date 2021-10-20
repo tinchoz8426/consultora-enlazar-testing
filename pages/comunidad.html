@@ -256,7 +256,10 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <!-- Inicializacion AOS -->
     <script>
-        AOS.init();
+        AOS.init({
+            disable: 'mobile',
+            once: true
+        });
     </script>
 </body>
 
