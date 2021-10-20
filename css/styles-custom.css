@@ -74,7 +74,7 @@
   position: relative;
 }
 .tituloEnlazar {
-  font-size: 35px;
+  font-size: 30px;
   font-weight: bold;
   color: #ffffff;
   padding-top: 50px;
@@ -82,7 +82,7 @@
   margin-left: 50px;
 }
 .textoSomos {
-  font-size: 18px;
+  font-size: 16px;
   color: #ffffff;
   display: block;
   width: 50%;
@@ -110,7 +110,7 @@
   position: relative;
 }
 .tituloObjetivo {
-  font-size: 35px;
+  font-size: 30px;
   font-weight: bold;
   color: #ffffff;
   padding-top: 60px;
@@ -118,7 +118,7 @@
   margin-left: 700px;
 }
 .textoObjetivo {
-  font-size: 18px;
+  font-size: 16px;
   color: #ffffff;
   display: block;
   width: 40%;
@@ -148,7 +148,7 @@
   font-weight: bold;
 }
 .textoConocenos {
-  font-size: 15px;
+  font-size: 16px;
 }
 .btn-cargar-cv {
   padding: .2rem 2rem !important;
@@ -200,16 +200,26 @@
   
 }
 .tituloAprende {
-  font-size: 40px;
+  font-size: 30px;
   font-weight: bold;
   color: #ffffff;
   text-align: center;
 }
 .textoAprende {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: bold;
   color: #ffffff;
   text-align: center;
+}
+.buttonAprendemos {
+  background-color: #ebbe48;
+  color: var(--negro);
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 100px;
+  padding: 0.5rem 2rem;
+  transition: ease-in-out 0.2s;
+  
 }
 .buttonAprende {
   background-color: #ebbe48;
@@ -220,6 +230,10 @@
   padding: 0.5rem 2rem;
   transition: ease-in-out 0.2s;
   margin-left: 40px;
+}
+.buttonAprendemos:hover {
+  transform: scale(1.02);
+  color: var(--negro);
 }
 .buttonAprende:hover {
   transform: scale(1.02);
@@ -346,7 +360,7 @@
   display: block;
 }
 .btn-cargar-cv {
-  padding: 0 2rem !important;
+  padding: 0.3 2rem !important;
   transition: ease-in-out 0.2s;
 }
 /* -----Fin Seccion REVISAMOS TU CV GRATIS ----- */
@@ -2051,12 +2065,12 @@ padding-right: 6rem;
     align-items: center;
     justify-content: center;
     background: url("../assets/images/servicios-cover-tablet.webp");
-    background-position: top center;
+    background-position:top center;
     background-size: cover;
     background-repeat: no-repeat;
     height: 65vh;
     position: relative;
-    top: 5.5rem;
+    
   }
   .header-title {
     color: var(--blanco);
@@ -2094,7 +2108,7 @@ padding-right: 6rem;
     background-position: top center; /*3rem*/
     background-size: cover;
     background-repeat: no-repeat;
-    height: 70vh;
+    height: 40vh;
     flex-direction: column;
   }
   .header-title1 {
@@ -2120,11 +2134,10 @@ padding-right: 6rem;
     background-position: top center;
     background-size: 600px;
     background-repeat: no-repeat;
-    height: 60vh;
+    height: 40vh;
     justify-items: center;
     background-color: white;
-    margin-top: 100px;
-    margin-bottom: 70px;
+    margin-top: -100px;
   }
   .header-title2 {
     color: #34668a;
@@ -2174,9 +2187,9 @@ padding-right: 6rem;
     margin-left: -280px
   }
   .form-consulta {
-    width: 80% !important;
-    padding-right: 3rem;
-    }
+    width: 85% !important;
+    padding-right: 0;
+    margin-right: auto;}
     .header-title {
       color: var(--blanco);
       padding: 0 1rem;
@@ -2282,12 +2295,11 @@ padding-right: 6rem;
   background-position: top center;
   background-size: 450px;
   background-repeat: no-repeat;
-  height: 40vh !important;
+  height: 30vh !important;
   justify-items: center;
   background-color: white;
-  margin-top: 100px;
-  margin-bottom: 70px;
-
+  margin-top: -150px;
+ 
 }
 .header-title2 {
   color: #34668a;
@@ -2297,13 +2309,29 @@ padding-right: 6rem;
   align-self: flex-start;
   padding-top: 85px;
 }
+.form-consulta {
+  width: 85% !important;
+  padding-right: 0;
+  margin-right: auto;
+}
+.buttonAprendemos {
+  background-color: #ebbe48;
+  color: var(--negro);
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 100px;
+  padding: 0.5rem 1rem;
+  transition: ease-in-out 0.2s;
+  width: 250px;
+  
+}
 }
 @media screen and (max-width: 480px) {
   
   
 
   .tituloObjetivo {
-    font-size: 25px;
+    font-size: 24px;
     font-weight: bold;
     color: #ffffff;
     margin-top: -160px;
@@ -2344,34 +2372,37 @@ padding-right: 6rem;
   align-items: center;
   justify-content: center;
   background: url("../assets/images/servicios-cover-tablet-mobile.webp");
-  background-position: top center;
+  background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 65vh;
+  height: 40vh;
   position: relative;
-  top: 5.5rem;
+  
 }
 .header-title {
   color: var(--blanco);
   padding: 0 1rem;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 23px;
   text-align: center;
 }
 .serviciosTitulo {
   text-align: left;
-  font-size: 25px;
+  font-size: 23px;
   font-weight: bold;
+  padding-left: 3rem;
+  padding-bottom: 4rem;
+  padding-top: .1rem;
 }
 .header-image1 {
   display: flex;
   align-items: center;
   justify-content: center;
   background: url("../assets/images/revision-cv-gratis-mobile.webp");
-  background-position: top center;
+  background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 70vh;
+  height: 30vh;
   flex-direction: column;
 }
 .header-title1 {
@@ -2396,11 +2427,11 @@ padding-right: 6rem;
   background-position: top center;
   background-size: 450px;
   background-repeat: no-repeat;
-  height: 40vh !important;
+  height: 20vh !important;
   justify-items: center;
   background-color: white;
   margin-top: 100px;
-  margin-bottom: 70px;
+
 
 }
 .header-title2 {
@@ -2410,6 +2441,14 @@ padding-right: 6rem;
   display: block;
   align-self: flex-start;
   padding-top: 65px;}
+  .form-consulta {
+    width: 85% !important;
+    padding-right: 0;
+    margin-right: auto;
+
+}
+
+
 
 }
 @media screen and (max-width: 435px) {
@@ -2465,8 +2504,8 @@ padding-right: 6rem;
   text-align: left;
   font-size: 25px;
   font-weight: bold;
-  padding-left: 2.5rem;
-  padding-bottom: 8rem;
+  padding-left: 2rem;
+  padding-bottom: 4rem;
   padding-top: .1rem;
 }
 .header-image2 {
@@ -2482,12 +2521,17 @@ padding-right: 6rem;
   background-position: top center;
   background-size: 400px;
   background-repeat: no-repeat;
-  height: 40vh !important;
+  height: 20vh !important;
   justify-items: center;
   background-color: white;
   margin-top: 100px;
-  margin-bottom: 70px;
+  
 
+}
+.form-consulta {
+  width: 85% !important;
+  padding-right: 0;
+  margin-right: auto;
 }
 }
 
@@ -2510,7 +2554,7 @@ padding-right: 6rem;
   
 } 
 .btn-cargar-cv {
-  padding: 0 2rem !important;
+  padding: 0.3 2rem !important;
   transition: ease-in-out 0.2s;
 }
 
@@ -2582,11 +2626,6 @@ padding-right: 6rem;
     margin-right: auto;
 }
 
-  .form-consulta {
-    width: 85% !important;
-    padding-right: 0;
-    margin-right: auto;
-}
 }
 @media screen and (max-width: 411px) {
   
@@ -2616,12 +2655,23 @@ padding-right: 6rem;
   background-position: top center;
   background-size: 350px;
   background-repeat: no-repeat;
-  height: 40vh !important;
+  height: 20vh !important;
   justify-items: center;
   background-color: white;
   margin-top: 100px;
-  margin-bottom: 70px;
+  
 
+}
+.buttonAprendemos {
+  background-color: #ebbe48;
+  color: var(--negro);
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 100px;
+  padding: 0.5rem 1rem;
+  transition: ease-in-out 0.2s;
+  width: 200px;
+  font-size: 10px;
 }
 }
 @media screen and (max-width: 375px) {
@@ -2654,6 +2704,17 @@ padding-right: 6rem;
   font-size: 10px;
   margin-bottom: 20px;
   width: 250px;
+}
+.buttonAprendemos {
+  background-color: #ebbe48;
+  color: var(--negro);
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 100px;
+  padding: 0.5rem 1rem;
+  transition: ease-in-out 0.2s;
+  width: 200px;
+  font-size: 10px;
 }
 .header-title {
   color: var(--blanco);
@@ -2713,6 +2774,17 @@ padding-right: 6rem;
     font-size: 10px;
     margin-bottom: 20px;
   }
+  .buttonAprendemos {
+    background-color: #ebbe48;
+    color: var(--negro);
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 100px;
+    padding: 0.5rem 1rem;
+    transition: ease-in-out 0.2s;
+    width: 200px;
+    font-size: 10px;
+  }
   
 .header-title1 {
   color: white;
@@ -2736,11 +2808,11 @@ padding-right: 6rem;
   background-position: top center;
   background-size: 300px;
   background-repeat: no-repeat;
-  height: 40vh !important;
+  height: 20vh !important;
   justify-items: center;
   background-color: white;
   margin-top: 100px;
-  margin-bottom: 10px;
+ 
 }
 .header-title2 {
   color: #34668a;
@@ -2784,7 +2856,7 @@ padding-right: 6rem;
   font-size: 20px;
   font-weight: bold;
   padding-left: 1rem;
-  padding-bottom: 8rem;
+  padding-bottom: 4rem;
   padding-top: .1rem;
 }
 .buttonAprende1 {
@@ -2798,6 +2870,17 @@ padding-right: 6rem;
   font-size:10px ;
   width: 250px;
  
+}
+.buttonAprendemos {
+  background-color: #ebbe48;
+  color: var(--negro);
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 100px;
+  padding: 0.5rem 1rem;
+  transition: ease-in-out 0.2s;
+  width: 200px;
+  font-size: 10px;
 }
 .btn-cargar-cv {
   padding: 0 2rem !important;
@@ -2851,6 +2934,17 @@ padding-right: 6rem;
   font-size: 10px;
   margin-bottom: 20px;
   width: 250px;
+}
+.buttonAprendemos {
+  background-color: #ebbe48;
+  color: var(--negro);
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 100px;
+  padding: 0.5rem 1rem;
+  transition: ease-in-out 0.2s;
+  width: 200px;
+  font-size: 10px;
 }
 .buttonAprende1 {
   background-color: #ebbe48;
@@ -2915,11 +3009,11 @@ padding-right: 6rem;
   background-position: top center;
   background-size: 250px;
   background-repeat: no-repeat;
-  height: 40vh !important;
+  height: 20vh !important;
   justify-items: center;
   background-color: white;
-  margin-top: 100px;
-  margin-bottom: 0px;
+  margin-top: 150px;
+ 
 
 }
 .header-title2 {
@@ -2959,11 +3053,22 @@ padding-right: 6rem;
     font-weight: bold;
     text-decoration: none;
     border-radius: 100px;
-    padding: 0.5rem 2rem;
+    padding: 0.5rem 0.5rem;
     transition: ease-in-out 0.2s;
-    font-size: 9px;
+    font-size: 10px;
     
-    width: 230px;
+    width: 200px;
+}
+.buttonAprendemos {
+  background-color: #ebbe48;
+  color: var(--negro);
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 100px;
+  padding: 0.5rem 1rem;
+  transition: ease-in-out 0.2s;
+  width: 200px;
+  font-size: 10px;
 }
 .somosEnlazar {
   background-color: #043959;
@@ -2990,11 +3095,11 @@ padding-right: 6rem;
   background-position: top center;
   background-size: 250px;
   background-repeat: no-repeat;
-  height: 40vh !important;
+  height: 15vh !important;
   justify-items: center;
   background-color: white;
   margin-top: 100px;
-  margin-bottom: 0px;
+ 
 
 }
 }
