@@ -1712,7 +1712,7 @@
     font-size: 40px;
     font-weight: bold;
     color: #ffffff;
-    padding-top: 100px;
+    padding-top: 60px;
     line-height: 50px;
     margin-left: 600px;
   }
@@ -1725,7 +1725,7 @@
     position: absolute;
   }
   .fotoObjetivo {
-    width: 49%;
+    width: 41%;
     display: block;
     position: absolute;
     filter: drop-shadow(4px 4px 10px rgba(0, 0, 0, 0.25));
