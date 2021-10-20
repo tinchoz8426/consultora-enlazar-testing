@@ -2663,6 +2663,14 @@ padding-right: 6rem;
   
 
 }
+.header-title2 {
+  color: #34668a;
+  font-size: 15px;
+  text-align: center;
+  display: block;
+  align-self: flex-start;
+  padding-top: 30px;
+}
 .buttonAprendemos {
   background-color: #ebbe48;
   color: var(--negro);
