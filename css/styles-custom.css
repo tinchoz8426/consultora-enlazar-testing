@@ -2579,6 +2579,12 @@ padding-right: 6rem;
     padding-right: 0;
     margin-right: auto;
 }
+
+  .form-consulta {
+    width: 85% !important;
+    padding-right: 0;
+    margin-right: auto;
+}
 }
 @media screen and (max-width: 411px) {
   
