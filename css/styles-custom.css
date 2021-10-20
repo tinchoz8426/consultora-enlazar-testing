@@ -2496,7 +2496,7 @@ padding-right: 6rem;
   font-weight: bold;
   text-decoration: none;
   border-radius: 100px;
-  padding: 0.5rem 2rem;
+  padding: 0.5rem 3rem;
   transition: ease-in-out 0.2s;
   margin-left: 30px;
   margin-bottom: 20px;
@@ -2675,7 +2675,7 @@ padding-right: 6rem;
   font-weight: bold;
   text-decoration: none;
   border-radius: 100px;
-  padding: 0.5rem 1rem;
+  padding: 0.5rem 2rem;
   transition: ease-in-out 0.2s;
   width: 200px;
   
@@ -2705,11 +2705,11 @@ padding-right: 6rem;
   font-weight: bold;
   text-decoration: none;
   border-radius: 100px;
-  padding: 0.5rem 2rem;
+  padding: 0.5rem 3rem;
   transition: ease-in-out 0.2s;
-  margin-left: 30px;
+  margin-left: 10px;
   margin-bottom: 20px;
-  width: 250px;
+  width: 320px;
 }
 .buttonAprendemos {
   background-color: #ebbe48;
@@ -2717,7 +2717,7 @@ padding-right: 6rem;
   font-weight: bold;
   text-decoration: none;
   border-radius: 100px;
-  padding: 0.5rem 1rem;
+  padding: 0.5rem 2rem;
   transition: ease-in-out 0.2s;
   width: 200px;
   
@@ -2774,7 +2774,7 @@ padding-right: 6rem;
     font-weight: bold;
     text-decoration: none;
     border-radius: 100px;
-    padding: 0.5rem 2rem;
+    padding: 0.5rem 3rem;
     transition: ease-in-out 0.2s;
     margin-left: 10px;
    
@@ -2786,7 +2786,7 @@ padding-right: 6rem;
     font-weight: bold;
     text-decoration: none;
     border-radius: 100px;
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 2rem;
     transition: ease-in-out 0.2s;
     width: 200px;
     
@@ -2883,7 +2883,7 @@ padding-right: 6rem;
   font-weight: bold;
   text-decoration: none;
   border-radius: 100px;
-  padding: 0.5rem 1rem;
+  padding: 0.5rem 2rem;
   transition: ease-in-out 0.2s;
   width: 200px;
   
@@ -2939,7 +2939,7 @@ padding-right: 6rem;
   margin-left: 10px;
   
   margin-bottom: 20px;
-  width: 250px;
+  width: 310px;
 }
 .buttonAprendemos {
   background-color: #ebbe48;
@@ -2947,7 +2947,7 @@ padding-right: 6rem;
   font-weight: bold;
   text-decoration: none;
   border-radius: 100px;
-  padding: 0.5rem 1rem;
+  padding: 0.5rem 2rem;
   transition: ease-in-out 0.2s;
   width: 200px;
  
@@ -3059,11 +3059,11 @@ padding-right: 6rem;
     font-weight: bold;
     text-decoration: none;
     border-radius: 100px;
-    padding: 0.5rem 0.5rem;
+    padding: 0.5rem 1rem;
     transition: ease-in-out 0.2s;
    
     
-    width: 200px;
+    width: 250px;
 }
 .buttonAprendemos {
   background-color: #ebbe48;
@@ -3071,7 +3071,7 @@ padding-right: 6rem;
   font-weight: bold;
   text-decoration: none;
   border-radius: 100px;
-  padding: 0.5rem 1rem;
+  padding: 0.5rem 2rem;
   transition: ease-in-out 0.2s;
   width: 200px;
   
