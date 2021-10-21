@@ -2421,7 +2421,7 @@ padding-right: 6rem;
   color: var(--blanco);
   padding: 0 1rem;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 19px;
   text-align: center;
 }
 .serviciosTitulo {
@@ -2557,13 +2557,21 @@ padding-right: 6rem;
   background-repeat: repeat;
   background-size: auto;
   background-position: top center;
-  background-size: 400px;
+  background-size: 300px;
   background-repeat: no-repeat;
   height: 20vh !important;
   justify-items: center;
   background-color: white;
   
 
+}
+.header-title2 {
+  color: #34668a;
+  font-size: 20px;
+  text-align: center;
+  display: block;
+  align-self: flex-start;
+  padding-top: 50px;
 }
 .form-consulta {
   width: 85% !important;
@@ -2674,6 +2682,13 @@ padding-right: 6rem;
   filter: drop-shadow(4px 4px 10px rgba(0, 0, 0, 0.25));
   display: block;
 }
+.header-title {
+  color: var(--blanco);
+  padding: 0 1rem;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+}
 .btn-cargar-cv {
   padding: 0 2rem !important;
   transition: ease-in-out 0.2s;
@@ -2689,7 +2704,7 @@ padding-right: 6rem;
   background-repeat: repeat;
   background-size: auto;
   background-position: top center;
-  background-size: 300px;
+  background-size: 250px;
   background-repeat: no-repeat;
   height: 20vh !important;
   justify-items: center;
@@ -2714,7 +2729,7 @@ padding-right: 6rem;
   border-radius: 100px;
   padding: 0.5rem 2rem;
   transition: ease-in-out 0.2s;
-  width: 200px;
+  width: 250px;
   
 }
 }
@@ -2756,7 +2771,7 @@ padding-right: 6rem;
   border-radius: 100px;
   padding: 0.5rem 2rem;
   transition: ease-in-out 0.2s;
-  width: 200px;
+  width: 250px;
   
 }
 .header-title {
@@ -2825,9 +2840,16 @@ padding-right: 6rem;
     border-radius: 100px;
     padding: 0.5rem 2rem;
     transition: ease-in-out 0.2s;
-    width: 200px;
+    width: 250px;
     
   }
+  .header-title {
+    color: var(--blanco);
+    padding: 0 1rem;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+}
   
 .header-title1 {
   color: white;
@@ -2922,7 +2944,7 @@ padding-right: 6rem;
   border-radius: 100px;
   padding: 0.5rem 2rem;
   transition: ease-in-out 0.2s;
-  width: 200px;
+  width: 250px;
   
 }
 .btn-cargar-cv {
@@ -2986,7 +3008,7 @@ padding-right: 6rem;
   border-radius: 100px;
   padding: 0.5rem 2rem;
   transition: ease-in-out 0.2s;
-  width: 200px;
+  width: 250px;
  
 }
 .buttonAprende1 {
@@ -3019,7 +3041,7 @@ padding-right: 6rem;
   color: var(--blanco);
   padding: 0 1rem;
   font-weight: bold;
-  font-size: 14px;
+  font-size: 13px;
   text-align: center;
 }
 .serviciosTitulo {
@@ -3110,7 +3132,7 @@ padding-right: 6rem;
   border-radius: 100px;
   padding: 0.5rem 2rem;
   transition: ease-in-out 0.2s;
-  width: 200px;
+  width: 250px;
   
 }
 .somosEnlazar {
