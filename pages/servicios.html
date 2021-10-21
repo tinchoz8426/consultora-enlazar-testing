@@ -7,7 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Servicios de Consultora Enlazar para empresas e individuos">
-    <meta name="keywords" content=" Recursos humanos, psicologia, psicología laboral, consultora enlazar, enlazar, consultoría, relaciones laborales, trabajo, educación, capital humano, talento, cursos, cursos online, capacitaciones, webinars gratuitos, curriculum, revisión de cv, empleabilidad, orientación vocacional, calidad de trabajo, comunidad, encontrar empleo, desarrollo profesional, reclutamiento, selección de personal, recruiting, coaching, acompañamiento personalizado, asesorías, recursos gratis, consultas, cosching, experiencia laboral, ">
+    <meta name="keywords"
+        content=" Recursos humanos, psicologia, psicología laboral, consultora enlazar, enlazar, consultoría, relaciones laborales, trabajo, educación, capital humano, talento, cursos, cursos online, capacitaciones, webinars gratuitos, curriculum, revisión de cv, empleabilidad, orientación vocacional, calidad de trabajo, comunidad, encontrar empleo, desarrollo profesional, reclutamiento, selección de personal, recruiting, coaching, acompañamiento personalizado, asesorías, recursos gratis, consultas, cosching, experiencia laboral, ">
     <title>Servicios - Consultora Enlazar</title>
     <!-- FAVICON -->
     <link rel="apple-touch-icon" sizes="57x57" href="../assets/images/favicon/apple-icon-57x57.png">
@@ -31,7 +32,8 @@
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <!-- CSS CUSTOM -->
     <link rel="stylesheet" href="../css/styles-custom.css">
-    <title>Servicios - Consultora Enlazar</title>
+    <!-- CSS AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
@@ -113,7 +115,7 @@
             <!-- Primera columna de CARD -->
             <div class="d-flex justify-content-center col-md-4 col-lg-3 pb-lg-5 pb-5">
                 <!-- Inicio de CARD Para individuos o Grupos -->
-                <div class="card text-center" style="width: 18rem;">
+                <div data-aos="fade-up" class="card text-center" style="width: 18rem;">
                     <img src="../assets/images/card-individuos-grupos.webp" class="card-image card-img-top"
                         alt="Para individuos o grupos">
                     <div class="card-body-servicios">
@@ -127,7 +129,7 @@
             <!-- Segunda columna de CARD -->
             <div class="d-flex justify-content-center col-md-4 col-lg-3 pb-lg-5 pb-5">
                 <!-- Inicio de CARD Para Empresas -->
-                <div class="card text-center" style="width: 18rem;">
+                <div data-aos="fade-up" class="card text-center" style="width: 18rem;">
                     <img src="../assets/images/card-empresas.webp" class="card-image card-img-top" alt="Para empresas">
                     <div class="card-body-servicios">
                         <h5 class="card-title">Para Empresas</h5>
@@ -282,6 +284,14 @@
             fileChosen.textContent = "CV cargado con exito"
             fileChosen.style.color = "green";
         })
+    </script>
+    <!-- Script AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- Inicializacion AOS -->
+    <script>
+        AOS.init({
+            duration: 200
+        });
     </script>
 </body>
 
