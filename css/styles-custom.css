@@ -1143,6 +1143,15 @@
 
 /* -----Pagina PARTICULARES Y GRUPOS----- */
 /* -----Inicio Header----- */
+.header-title__particulares{
+  color: var(--blanco);
+  padding: 0 1rem;
+  font-weight: bold;
+  font-size: 1.9rem;
+  text-align: center;
+  margin-bottom: 0;
+  filter: drop-shadow(4px 4px 10px rgba(0, 0, 0, 0.25));
+}
 .header-image__particulares {
   display: flex;
   align-items: center;
@@ -1229,6 +1238,15 @@
   height: 70vh;
   position: relative;
   top: 5rem;
+}
+.header-title__empresas {
+  color: var(--blanco);
+  padding: 0 1rem;
+  font-weight: bold;
+  font-size: 1.9rem;
+  text-align: center;
+  margin-bottom: 0;
+  filter: drop-shadow(4px 4px 10px rgba(0, 0, 0, 0.25));
 }
 .header-subtitle__empresas{
   font-size: 1.5rem;
@@ -1666,6 +1684,9 @@
   .header{
     height: 40vh;
   }
+  .header-title__particulares{
+    font-size: 1.3rem;
+  }
   .header-image__particulares{
     background-position: center;
     background-size: cover;
@@ -1703,6 +1724,12 @@
 
 /* ----- Pagina EMPRESAS ----- */
 @media screen and (max-width: 480px) {
+  .header-title__empresas{
+    font-size: 1.3rem;
+  }
+  .header-subtitle__empresas{
+    font-size: 1.1rem;
+  }
   .header-image__empresas{
     background-position: center;
     background-size: cover;
@@ -1716,7 +1743,7 @@
 }
 
 
-/* ---MEDIA QUERIES GIME. PRUEBA--- */
+/* ---MEDIA QUERIES GIME--- */
 @media screen and (max-width: 1400px) {
  
   
