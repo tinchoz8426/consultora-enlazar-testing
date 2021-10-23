@@ -1216,6 +1216,7 @@
 /* -----Inicio Header----- */
 .header-image__empresas {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   background: -webkit-image-set(
@@ -1228,6 +1229,11 @@
   height: 70vh;
   position: relative;
   top: 5rem;
+}
+.header-subtitle__empresas{
+  font-size: 1.5rem;
+  color: var(--blanco);
+  padding-top: 1rem;
 }
 /* -----Fin Header----- */
 
