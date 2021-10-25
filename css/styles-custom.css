@@ -1742,17 +1742,41 @@
 
 /* ---MEDIA QUERIES GIME--- */
 
-
-
-
+@media screen and (max-width: 1920px) {
+.fotoEnlazar {
+  width: 22%;
+  display: block;
+  position: absolute;
+  top: 60px;
+  left: 1200px;
+}
+}
+@media screen and (max-width: 1600px) {
+  .fotoEnlazar {
+    width: 20%;
+    display: block;
+    position: absolute;
+    top: 85px;
+    left: 1000px;
+  }
+  }
+  @media screen and (max-width: 1400px) {
+    .fotoEnlazar {
+      width: 20%;
+      display: block;
+      position: absolute;
+      top: 110px;
+      left: 900px;
+    }
+    } 
 @media screen and (max-width: 1100px) {
   
   .fotoEnlazar {
     width: 28%;
     display: block;
     position: absolute;
-    top: 100px;
-    left: 650px;
+    top: 120px;
+    left: 700px;
   }
   
   .nuestro-objetivo__image{
@@ -1772,13 +1796,40 @@
    
 }
 }
+@media screen and (max-width: 1024px) {
+  .header-image2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(../assets/images/letra-e-completa.png);
+    background-color: rgba(0, 0, 0, 0);
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-repeat: repeat;
+    background-size: auto;
+    background-position: center;
+    background-size: 600px;
+    background-repeat: no-repeat;
+    height: 60vh;
+    justify-items: center;
+    background-color: white;
+}
+.header-title2 {
+  color: #34668a;
+  font-size: 1.6rem;
+  text-align: center;
+  display: block;
+  align-self: flex-start;
+  padding-top: 390px;
+}
+}
 @media screen and (max-width: 980px) {
   
   .fotoEnlazar {
     width: 28%;
     display: block;
     position: absolute;
-    top: 120px;
+    top: 150px;
     left: 600px;
   }
   
@@ -1879,11 +1930,11 @@
     padding-left: 50px;
   }
   .fotoEnlazar {
-    width: 28%;
+    width: 30%;
     display: block;
     position: absolute;
     top: 140px;
-    left: 500px;
+    left: 550px;
   }
   
   .nuestro-objetivo__image{
@@ -1966,7 +2017,7 @@ padding-right: 6rem;
     font-size: 30px;
     font-weight: bold;
     color: #ffffff;
-    padding-top: 1px;
+    padding-top: 50px;
     line-height: 50px;
     margin-left: 50px;
   }
@@ -2599,7 +2650,7 @@ padding-right: 6rem;
   text-align: center;
   display: block;
   align-self: flex-start;
-  padding-top: 30px;
+  padding-top: 40px;
 }
 .buttonAprendemos {
   background-color: #ebbe48;
@@ -2750,7 +2801,7 @@ padding-right: 6rem;
   text-align: center;
   display: block;
   align-self: flex-start;
-  padding-top: 60px;
+  padding-top: 40px;
 }
 .btn-cargar-cv {
   padding: 0 2rem !important;
@@ -2810,8 +2861,34 @@ padding-right: 6rem;
   padding: 0 2rem !important;
   transition: ease-in-out 0.2s;
 }
+.header-title1 {
+  color: white;
+  padding: 0.5rem 0.5rem 1rem 2rem;
+  font-size: 15px;
+  text-align: center;
+  margin-bottom: 0;
+  filter: drop-shadow(4px 4px 10px rgba(0, 0, 0, 0.25));
+  display: block;
+}
+.header-image2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url(../assets/images/letra-e-completa.png);
+  background-color: rgba(0, 0, 0, 0);
+  background-position-x: 0%;
+  background-position-y: 0%;
+  background-repeat: repeat;
+  background-size: auto;
+  background-position: top center;
+  background-size: 220px;
+  background-repeat: no-repeat;
+  height: 20vh !important;
+  justify-items: center;
+  background-color: white;
+  margin: 20px;
 
-
+}
 }
 @media screen and (max-width: 300px) {
   
@@ -3012,4 +3089,323 @@ padding-right: 6rem;
   margin-left: -30px;
   
 } 
+.header-title2 {
+  color: #34668a;
+  font-size: 15px;
+  text-align: center;
+  display: block;
+  align-self: flex-start;
+  padding-top: 30px;
+}
+}
+@media screen and (min-width: 1024px) and (orientation: landscape) {
+  .header-title2 {
+    color: #34668a;
+    font-size: 1.6rem;
+    text-align: center;
+    display: block;
+    align-self: flex-start;
+    padding-top: 190px;
+}
+
+}
+@media screen and (min-width: 823px) and (orientation: landscape) {
+  .header-image2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(../assets/images/letra-e-completa.png);
+    background-color: rgba(0, 0, 0, 0);
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-repeat: repeat;
+    background-size: auto;
+    background-position: top center;
+    background-size: 500px;
+    background-repeat: no-repeat;
+    height: 60vh;
+    justify-items: center;
+    background-color: white;
+    margin: 60px;
+}
+.header-title2 {
+  color: #34668a;
+  font-size: 1.6rem;
+  text-align: center;
+  display: block;
+  align-self: flex-start;
+  padding-top: 80px;
+}
+.nuestro-objetivo__text {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: end;
+  padding: 1rem 7rem;
+}
+}
+@media screen and (min-width: 812px) and (orientation: landscape) {
+  .somosEnlazar {
+    background-color: #043959;
+    width: 100%;
+    height: 550px;
+    margin-top: -10px;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+.header-image2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url(../assets/images/letra-e-completa.png);
+  background-color: rgba(0, 0, 0, 0);
+  background-position-x: 0%;
+  background-position-y: 0%;
+  background-repeat: repeat;
+  background-size: auto;
+  background-position: center;
+  background-size: 400px;
+  background-repeat: no-repeat;
+  height: 60vh;
+  justify-items: center;
+  background-color: white;
+  margin: 60px;
+}
+.header-title2 {
+  color: #34668a;
+  font-size: 1.6rem;
+  text-align: center;
+  display: block;
+  align-self: flex-start;
+  padding-top: 80px;
+}
+}
+@media screen and (min-width: 736px) and (orientation: landscape) {
+  .header-title {
+    color: var(--blanco);
+    padding: 0 1rem;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 0;
+    filter: drop-shadow(4px 4px 10px rgba(0, 0, 0, 0.25));
+}
+.header-title1 {
+  color: white;
+  padding: 0.5rem 0.5rem 2rem 1rem;
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 0;
+  filter: drop-shadow(4px 4px 10px rgba(0, 0, 0, 0.25));
+  display: block;
+}
+.btn-cargar-cv {
+  padding: .1rem 2rem !important;
+  transition: ease-in-out 0.2s;
+}
+.header-image1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url(../assets/images/revision-cv-gratis-tablet.webp);
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 50vh;
+  flex-direction: column;
+}
+.header-image2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url(../assets/images/letra-e-completa.png);
+  background-color: rgba(0, 0, 0, 0);
+  background-position-x: 0%;
+  background-position-y: 0%;
+  background-repeat: repeat;
+  background-size: auto;
+  background-position: top center;
+  background-size: 400px;
+  background-repeat: no-repeat;
+  height: 60vh;
+  justify-items: center;
+  background-color: white;
+  margin: 40px;
+  
+}
+.header-title2 {
+  color: #34668a;
+  font-size: 20px;
+  text-align: center;
+  display: block;
+  align-self: flex-start;
+  padding-top: 70px;
+}
+}
+@media screen and (min-width: 731px) and (orientation: landscape) {
+  .header-title {
+    color: var(--blanco);
+    padding: 0 1rem;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 0;
+    filter: drop-shadow(4px 4px 10px rgba(0, 0, 0, 0.25));
+}
+.header-image1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url(../assets/images/revision-cv-gratis-tablet.webp);
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 60vh;
+  flex-direction: column;
+}
+.header-image2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url(../assets/images/letra-e-completa.png);
+  background-color: rgba(0, 0, 0, 0);
+  background-position-x: 0%;
+  background-position-y: 0%;
+  background-repeat: repeat;
+  background-size: auto;
+  background-position: top center;
+  background-size: 400px;
+  background-repeat: no-repeat;
+  height: 60vh;
+  justify-items: center;
+  background-color: white;
+  margin: 30px;
+}
+.header-title2 {
+  color: #34668a;
+  font-size: 25px;
+  text-align: center;
+  display: block;
+  align-self: flex-start;
+  padding-top: 70px;
+}
+}
+@media screen and (min-width: 667px) and (orientation: landscape) {
+  .header-image1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(../assets/images/revision-cv-gratis-tablet.webp);
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 60vh;
+    flex-direction: column;
+}
+.header-image2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url(../assets/images/letra-e-completa.png);
+  background-color: rgba(0, 0, 0, 0);
+  background-position-x: 0%;
+  background-position-y: 0%;
+  background-repeat: repeat;
+  background-size: auto;
+  background-position: top center;
+  background-size: 400px;
+  background-repeat: no-repeat;
+  height: 60vh;
+  justify-items: center;
+  background-color: white;
+  margin: 30px;
+}
+.header-title2 {
+  color: #34668a;
+  font-size: 25px;
+  text-align: center;
+  display: block;
+  align-self: flex-start;
+  padding-top: 70px;
+}
+}
+@media screen and (min-width: 640px) and (orientation: landscape) {
+  .header-image1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(../assets/images/revision-cv-gratis-tablet.webp);
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 60vh;
+    flex-direction: column;
+}
+.header-image2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url(../assets/images/letra-e-completa.png);
+  background-color: rgba(0, 0, 0, 0);
+  background-position-x: 0%;
+  background-position-y: 0%;
+  background-repeat: repeat;
+  background-size: auto;
+  background-position: top center;
+  background-size: 400px;
+  background-repeat: no-repeat;
+  height: 60vh;
+  justify-items: center;
+  background-color: white;
+  margin: 30px;
+}
+.header-title2 {
+  color: #34668a;
+  font-size: 25px;
+  text-align: center;
+  display: block;
+  align-self: flex-start;
+  padding-top: 70px;
+}
+
+}
+@media screen and (min-width: 568px) and (orientation: landscape) {
+  .header-image1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(../assets/images/revision-cv-gratis-tablet.webp);
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 60vh;
+    flex-direction: column;
+}
+.header-image2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url(../assets/images/letra-e-completa.png);
+  background-color: rgba(0, 0, 0, 0);
+  background-position-x: 0%;
+  background-position-y: 0%;
+  background-repeat: repeat;
+  background-size: auto;
+  background-position: top center;
+  background-size: 400px;
+  background-repeat: no-repeat;
+  height: 60vh;
+  justify-items: center;
+  background-color: white;
+  margin: 30px;
+}
+.header-title2 {
+  color: #34668a;
+  font-size: 25px;
+  text-align: center;
+  display: block;
+  align-self: flex-start;
+  padding-top: 70px;
+}
 }
