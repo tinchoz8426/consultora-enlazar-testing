@@ -2271,13 +2271,10 @@ padding-right: 6rem;
   
   
 
-  .tituloObjetivo {
-    font-size: 24px;
+  .nuestro-objetivo__title{
+    color: var(--blanco);
+    font-size: 25px;
     font-weight: bold;
-    color: #ffffff;
-    margin-top: -160px;
-    line-height: 50px;
-    margin-left: -210px;
   }
   
   .bannerAprende {
@@ -2766,6 +2763,15 @@ padding-right: 6rem;
   background-color: var(--azul-claro);
   padding-top: 5rem;
   padding-bottom: 5rem;
+}
+.nuestro-objetivo__title{
+  color: var(--blanco);
+  font-size: 20px;
+  font-weight: bold;
+}
+.nuestro-objetivo__paragraph{
+  color: var(--blanco);
+  font-size: 15px;
 }
 .serviciosTitulo {
   text-align: left;
