@@ -116,9 +116,14 @@
   text-align: end;
   padding: 0 10rem;
 }
-.nuestro-objetivo__title,
+.nuestro-objetivo__title{
+  color: var(--blanco);
+  font-size: 30px;
+  font-weight: bold;
+}
 .nuestro-objetivo__paragraph{
   color: var(--blanco);
+  font-size: 16px;
 }
 .nuestro-objetivo__paragraph span{
   font-weight: bold;
